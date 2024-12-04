@@ -1,0 +1,146 @@
+Namespace(dataset='Beauty', batch_size=128, hidden_size=64, seq_len=20, interest_num=4, model_type='REMI', epoch=30, lr=0.001, lr_dc=0.1, lr_dc_step=30, patience=10, gpu=0, weight_decay=0, topN=50, phrase='train', coef=None, exp='e10', random_seed=2021, add_pos=1, dropout=0.2, layers=1, sampled_n=0, sampled_loss='sampled', sample_prob=0, max_iter=1000, rbeta=10, rlambda=100)
+Using time span 128
+total user: 17890
+total items: 12076
+Using time span 128
+total user: 2236
+total items: 5169
+Using time span 128
+total user: 2237
+total items: 3616
+load text inference: 824it [00:00, 43305.26it/s]
+start training:  2024-09-30 10:00:25.330057
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 200, train loss: 11.0032, valid recall: 0.008539, valid ndcg: 0.004464, valid hitrate: 0.015653
+time interval: 1.5283 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 400, train loss: 10.8626, valid recall: 0.047192, valid ndcg: 0.024512, valid hitrate: 0.083184
+time interval: 3.0514 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 600, train loss: 10.7776, valid recall: 0.088090, valid ndcg: 0.038524, valid hitrate: 0.144454
+time interval: 4.5659 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 800, train loss: 10.6877, valid recall: 0.090792, valid ndcg: 0.039947, valid hitrate: 0.149374
+time interval: 6.0757 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 1000, train loss: 10.5445, valid recall: 0.096015, valid ndcg: 0.042702, valid hitrate: 0.157871
+time interval: 7.5807 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 1200, train loss: 10.3384, valid recall: 0.100715, valid ndcg: 0.044544, valid hitrate: 0.161896
+time interval: 9.0736 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 1400, train loss: 10.1313, valid recall: 0.107357, valid ndcg: 0.045630, valid hitrate: 0.168605
+time interval: 10.5944 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 1600, train loss: 9.9337, valid recall: 0.117655, valid ndcg: 0.049201, valid hitrate: 0.186941
+time interval: 12.1072 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 1800, train loss: 9.7846, valid recall: 0.134918, valid ndcg: 0.056099, valid hitrate: 0.211091
+time interval: 13.7783 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 2000, train loss: 9.6181, valid recall: 0.147196, valid ndcg: 0.061196, valid hitrate: 0.228086
+time interval: 15.4609 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 2200, train loss: 9.4576, valid recall: 0.157836, valid ndcg: 0.065781, valid hitrate: 0.244633
+time interval: 17.1322 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 2400, train loss: 9.3150, valid recall: 0.162638, valid ndcg: 0.067851, valid hitrate: 0.254025
+time interval: 18.8228 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 2600, train loss: 9.1667, valid recall: 0.169789, valid ndcg: 0.071889, valid hitrate: 0.263417
+time interval: 20.5345 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 2800, train loss: 9.0065, valid recall: 0.175771, valid ndcg: 0.073342, valid hitrate: 0.269231
+time interval: 22.2103 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 3000, train loss: 8.8465, valid recall: 0.177775, valid ndcg: 0.073946, valid hitrate: 0.270125
+time interval: 23.8979 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 3200, train loss: 8.7026, valid recall: 0.186214, valid ndcg: 0.077684, valid hitrate: 0.283989
+time interval: 25.5696 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 3400, train loss: 8.5348, valid recall: 0.190242, valid ndcg: 0.079620, valid hitrate: 0.290698
+time interval: 27.2544 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 3600, train loss: 8.4163, valid recall: 0.193026, valid ndcg: 0.080930, valid hitrate: 0.293828
+time interval: 28.9273 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 3800, train loss: 8.2447, valid recall: 0.195834, valid ndcg: 0.081678, valid hitrate: 0.296512
+time interval: 30.5969 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 4000, train loss: 8.0918, valid recall: 0.197618, valid ndcg: 0.084588, valid hitrate: 0.299642
+time interval: 32.2942 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 4200, train loss: 7.9408, valid recall: 0.193526, valid ndcg: 0.083713, valid hitrate: 0.293381
+time interval: 33.9779 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 4400, train loss: 7.8124, valid recall: 0.194418, valid ndcg: 0.083905, valid hitrate: 0.292487
+time interval: 35.6533 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 4600, train loss: 7.6633, valid recall: 0.196998, valid ndcg: 0.083330, valid hitrate: 0.294723
+time interval: 37.3413 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 4800, train loss: 7.4988, valid recall: 0.199060, valid ndcg: 0.083837, valid hitrate: 0.296959
+time interval: 39.0363 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 5000, train loss: 7.3931, valid recall: 0.197140, valid ndcg: 0.084295, valid hitrate: 0.293828
+time interval: 40.7101 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 5200, train loss: 7.2673, valid recall: 0.203223, valid ndcg: 0.086351, valid hitrate: 0.304562
+time interval: 42.3821 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 5400, train loss: 7.1418, valid recall: 0.200617, valid ndcg: 0.084521, valid hitrate: 0.299195
+time interval: 44.0620 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 5600, train loss: 7.0165, valid recall: 0.204617, valid ndcg: 0.086042, valid hitrate: 0.302326
+time interval: 45.7360 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 5800, train loss: 6.9068, valid recall: 0.205382, valid ndcg: 0.086826, valid hitrate: 0.305903
+time interval: 47.3914 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 6000, train loss: 6.8065, valid recall: 0.207524, valid ndcg: 0.086085, valid hitrate: 0.305009
+time interval: 49.0679 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 6200, train loss: 6.6763, valid recall: 0.204187, valid ndcg: 0.084617, valid hitrate: 0.300984
+time interval: 50.7620 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 6400, train loss: 6.6216, valid recall: 0.206181, valid ndcg: 0.085486, valid hitrate: 0.302773
+time interval: 52.2757 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 6600, train loss: 6.5098, valid recall: 0.206406, valid ndcg: 0.084090, valid hitrate: 0.303667
+time interval: 53.5420 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 6800, train loss: 6.3814, valid recall: 0.202394, valid ndcg: 0.083800, valid hitrate: 0.298748
+time interval: 54.7864 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 7000, train loss: 6.3117, valid recall: 0.203332, valid ndcg: 0.085293, valid hitrate: 0.301431
+time interval: 56.0339 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 7200, train loss: 6.2307, valid recall: 0.205540, valid ndcg: 0.085129, valid hitrate: 0.300089
+time interval: 57.2832 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 7400, train loss: 6.1683, valid recall: 0.203084, valid ndcg: 0.084868, valid hitrate: 0.298301
+time interval: 58.5284 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 7600, train loss: 6.0754, valid recall: 0.200865, valid ndcg: 0.083462, valid hitrate: 0.295170
+time interval: 59.7827 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 7800, train loss: 6.0255, valid recall: 0.203591, valid ndcg: 0.084660, valid hitrate: 0.300089
+time interval: 61.0332 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 8000, train loss: 5.9671, valid recall: 0.202702, valid ndcg: 0.084234, valid hitrate: 0.298748
+time interval: 62.2773 min
+Beauty_REMI_b128_lr0.001_d64_len20_in4_e10
+iter: 8200, train loss: 5.8756, valid recall: 0.201596, valid ndcg: 0.083752, valid hitrate: 0.295170
+early stopping!
+model loaded from best_model/Beauty_REMI_b128_lr0.001_d64_len20_in4_e10/
+Valid recall: 0.207524, Valid ndcg: 0.086085, Valid hitrate: 0.305009
+Test result:
+test recall@20=0.232251
+test ndcg@20=0.120385
+test hitrate@20=0.326777
+test recall@50=0.363639
+test ndcg@50=0.134844
+test hitrate@50=0.481448
+
+Process finished with exit code 0
