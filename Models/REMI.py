@@ -44,7 +44,6 @@ class REMI(BasicModel):
         self.text_hidden_size = 100
         self.attention = Attention(self.text_hidden_size)
         self.linear_text2seq = nn.Linear(self.text_hidden_size, hidden_size, bias=True)
-        self.linear_text2seq2 = nn.Linear(self.text_hidden_size, hidden_size, bias=True)
         item_text_path = 'data/' + opt.dataset + '/{}_item_name_emb_100.csv'.format(opt.dataset)
         df = pd.read_csv(item_text_path)
         text_embeddings = df['Text_Embedding'].values
@@ -184,7 +183,7 @@ class REMI(BasicModel):
         text_scores = self.calculate_text_score(text_readout)
 
         text_readout = self.linear_text2seq(text_readout)
-        label_text_eb = self.linear_text2seq2(label_text_eb)
+        label_text_eb = self.linear_text2seq(label_text_eb)
 
         alignment_loss = self.alignment_loss(readout, text_readout, label_eb, label_text_eb)
 
