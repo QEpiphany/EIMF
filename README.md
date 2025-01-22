@@ -1,1 +1,1 @@
-# A bi-level multi-interest modeling framework combining LLM and Sequential Recommendation Model
+# A Bi-level Multi-interest Modeling Framework Combining LLM and Sequential Recommendation Model
