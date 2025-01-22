@@ -1,1 +1,1 @@
-# Alignment of LLM Semantics and User Behavior for Multi-interest Modeling (EIMF)
+# A bi-level multi-interest modeling framework combining LLM and Sequential Recommendation Model
