@@ -1,1 +1,1 @@
-# A Bi-level Multi-interest Modeling Framework Combining LLM and Sequential Recommendation Model
+# Bi-level Multi-interest Learning Framework for Sequential Recommendation (EIMF)
